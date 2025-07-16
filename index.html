@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ayush Subedi - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav aria-label="Primary Navigation">
+        <a href="#home" class="logo">Ayush Subedi</a>
+        <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false" aria-label="Toggle menu">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul id="primary-menu" class="nav-menu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><button id="darkSwitch" class="btn-primary">Dark Mode</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="section-hero" tabindex="-1">
+      <div class="container hero-content">
+        <h1>Hello, I'm Ayush Subedi</h1>
+        <p class="typed-text"></p>
+        <a href="#" class="btn-primary" aria-label="Download Resume">Download Resume</a>
+      </div>
+    </section>
+
+    <section id="about" class="section-about">
+      <div class="container about-wrapper">
+        <div class="about-img-wrapper">
+          <img src="https://i.imgur.com/0l9ZSKQ.jpg" alt="Ayush Subedi Photo" />
+        </div>
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>
+            I'm a passionate 12th-grade Computer Engineering student from Nawalpur, Nepal. I specialize in HTML, CSS, JavaScript, C, C++, C#, and Python.
+          </p>
+          <p>
+            With a creative mindset and a dedication to continuous learning, I develop innovative projects to solve real-world problems.
+          </p>
+          <p>
+            I’m always eager to collaborate and grow as a developer while making meaningful contributions to the tech community.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section-projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="cards">
+          <article class="card">
+            <img src="https://i.imgur.com/wv9sO5Z.png" alt="School Management System screenshot" />
+            <div class="card-content">
+              <h3>School Management System</h3>
+              <p>Desktop app built in C# to manage student info, attendance, and grades. Features secure login and role-based access.</p>
+              <a href="#" aria-label="View details about School Management System">View Details</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://i.imgur.com/FjR4LXy.png" alt="Portfolio Website screenshot" />
+            <div class="card-content">
+              <h3>Personal Portfolio Website</h3>
+              <p>Responsive portfolio showcasing my skills and projects, built with HTML, CSS, and JavaScript with modern animations.</p>
+              <a href="#" aria-label="View details about Portfolio Website">View Details</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://i.imgur.com/3Jd5Zf6.png" alt="Chatbot with Flask screenshot" />
+            <div class="card-content">
+              <h3>Chatbot with Flask</h3>
+              <p>Python & Flask chatbot answering school questions in English & Nepali, with voice input and multilingual support.</p>
+              <a href="#" aria-label="View details about Chatbot with Flask">View Details</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://i.imgur.com/At3H7rG.png" alt="Weather App screenshot" />
+            <div class="card-content">
+              <h3>Weather App</h3>
+              <p>JavaScript web app fetching real-time weather data, with city search and 5-day forecast features.</p>
+              <a href="#" aria-label="View details about Weather App">View Details</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://i.imgur.com/7mOPC0k.png" alt="Snake Game screenshot" />
+            <div class="card-content">
+              <h3>Snake Game</h3>
+              <p>Classic snake game built with JavaScript, featuring responsive controls and dynamic gameplay.</p>
+              <a href="#" aria-label="View details about Snake Game">View Details</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://i.imgur.com/WxQe74a.png" alt="Basic Calculator screenshot" />
+            <div class="card-content">
+              <h3>Basic Calculator</h3>
+              <p>Simple desktop calculator built with C++ supporting basic arithmetic operations and intuitive UI.</p>
+              <a href="#" aria-label="View details about Basic Calculator">View Details</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section-skills" tabindex="-1">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skill-list" aria-label="Programming skills"></div>
+      </div>
+    </section>
+  </main>
+
+  <button id="toTop" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <footer>
+    <div class="container footer-content">
+      <p>© 2025 Ayush Subedi</p>
+      <p>📞 +977-98XXXXXXXX | 📧 ayush@example.com</p>
+      <p class="social-links" aria-label="Social media links">
+        <a href="https://facebook.com/yourprofile" target="_blank" rel="noopener" aria-label="Facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener" aria-label="Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
